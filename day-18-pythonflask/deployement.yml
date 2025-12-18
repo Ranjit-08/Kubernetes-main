@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: hotstar-nodejs-project
+        image: 211739080894.dkr.ecr.us-east-1.amazonaws.com/hotstar-nodejs-project:latest
         ports:
         - containerPort: 3000
 ---
